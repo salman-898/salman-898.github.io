@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Salman | Rolling Shutter Services</title>
+  <meta name="description" content="Professional rolling shutter installation, repair and maintenance. Contact Salman at 9676102605." />
+  <style>
+    :root{
+      --bg:#071428; --card:#0f2030; --accent:#00f0c6; --muted:#9fb6c5;
+      --radius:14px; --maxw:980px; --pad:20px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#041226 0%, #071428 60%);
+         color:#e6fbf7;display:flex;align-items:center;justify-content:center;
+         padding:36px 18px;min-height:100vh;}
+    .wrap{width:100%;max-width:var(--maxw);}
+    header{display:flex;align-items:center;gap:18px;margin-bottom:20px;}
+    .logo{
+      background:linear-gradient(135deg,var(--accent),#00d1ff);
+      width:72px;height:72px;border-radius:18px;
+      display:flex;align-items:center;justify-content:center;
+      box-shadow:0 6px 24px rgba(0,0,0,0.5),
+                 0 0 20px rgba(0,240,198,0.06);
+      font-weight:700;color:#052127;
+    }
+    h1{font-size:24px;margin:0;letter-spacing:0.2px}
+    .sub{color:var(--muted);margin-top:6px;font-size:14px}
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:22px;align-items:start;}
+    @media (max-width:880px){.grid{grid-template-columns:1fr;}.logo{width:56px;height:56px}}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(0,0,0,0.06));
+          padding:22px;border-radius:var(--radius);
+          box-shadow:0 6px 30px rgba(2,6,10,0.5);
+          border:1px solid rgba(255,255,255,0.03)}
+    .services h2{margin:0 0 12px 0;color:#dffcf0;font-size:18px}
+    ul.services-list{list-style:none;padding:0;margin:0}
+    ul.services-list li{padding:12px 0;border-bottom:1px dashed rgba(255,255,255,0.03);
+                        display:flex;gap:12px;align-items:center}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);
+         box-shadow:0 0 12px rgba(0,240,198,0.14)}
+    .price{margin-left:auto;color:var(--muted);font-size:14px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    .btn{display:inline-flex;align-items:center;gap:10px;
+         padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#00d1ff);
+                 color:#042226;box-shadow:0 8px 30px rgba(0,240,198,0.12)}
+    .btn-outline{border:1px solid rgba(255,255,255,0.08);
+                 color:var(--muted);background:transparent}
+    footer{margin-top:18px;color:rgba(255,255,255,0.45);
+            font-size:13px;text-align:center}
+    .hero-desc{color:var(--muted);line-height:1.5;margin-top:12px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">S</div>
+      <div>
+        <h1>Salman — Rolling Shutter Services</h1>
+        <div class="sub">Installation • Repair • Maintenance — Reliable & secure shutters</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div>
+        <div class="card">
+          <p class="hero-desc">
+            I install and repair rolling shutters for shops, garages and warehouses. 
+            Durable parts, accurate fitting and quick service — available for emergency fixes and scheduled installations.
+          </p>
+
+          <section class="services" style="margin-top:16px">
+            <h2>Services</h2>
+            <ul class="services-list">
+              <li><div class="dot"></div> Full shutter installation <span class="price">From ₹3,500</span></li>
+              <li><div class="dot"></div> Repair & emergency fixes <span class="price">From ₹800</span></li>
+              <li><div class="dot"></div> Motor & automation setup <span class="price">From ₹6,500</span></li>
+              <li><div class="dot"></div> Maintenance & lubrication <span class="price">From ₹500</span></li>
+            </ul>
+
+            <div class="cta">
+              <a class="btn btn-primary" href="https://wa.me/919676102605" target="_blank" rel="noopener noreferrer">
+                💬 Message on WhatsApp
+              </a>
+              <a class="btn btn-outline" href="mailto:salmanmohdsalman898@gmail.com">
+                ✉️ Email
+              </a>
+            </div>
+          </section>
+        </div>
+        <footer>Call or WhatsApp 9676102605 — Quick on-site service, all areas covered.</footer>
+      </div>
+
+      <div class="card contact-card">
+        <h3>Contact Salman</h3>
+        <div class="sub">Fast replies during working hours</div>
+        <p>📞 <a href="tel:+919676102605" style="color:#9fb6c5;text-decoration:none">+91 9676102605</a></p>
+        <p>✉️ <a href="mailto:salmanmohdsalman898@gmail.com" style="color:#9fb6c5;text-decoration:none">salmanmohdsalman898@gmail.com</a></p>
+        <a class="btn btn-primary" href="https://wa.me/919676102605" target="_blank" rel="noopener noreferrer">Quick Quote on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
